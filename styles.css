@@ -1,5 +1,5 @@
 html {
-	font-size: 10px;
+	font-size: 14px;
 	font-family: 'Space Mono', monospace;
 	zoom: 100%;
 }
@@ -81,7 +81,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 
 .main-img {
 	border-radius: 20px;
-	width: 520px;
+	width: 620px;
 }
 
 @keyframes pulse {
@@ -100,13 +100,13 @@ input[type="range"]::-webkit-slider-runnable-track {
 @media (max-width: 800px) {
 	body {
 		max-height: 60vw;
-		font-size: 18px;
+		font-size: 22px;
 		background-image: url(https://images.all-free-download.com/images/graphiclarge/starry_night_192398.jpg);
 
 	}
     
     .main-img {
-    	width: 400px;
+    	width: 500px;
     	margin-bottom: 15px;
     	border-radius: 10px;
     }
