@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Abhinav's Playlist</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+</head>
+<body>
+ <div class="player">
+	<img class="main-img" src="images/main-img.gif" id="pic">
+
+	<audio id="player" ontimeupdate="updateProgress()">
+		<source id="source">
+	    Audio not supported
+	</audio>
+	<progress id="progress" value="0" max="100"></progress>
+	<div id="controls">
+		<p id="currentSong"></p>
+		<div class="controls_wrapper">
+			<span id="play"  onclick="playAudio()"><img src="images/play-64.ico"></span>
+			<span id="pause" onclick="pauseAudio()"><img src="images/pause-64.ico"></span>
+		</div>
+		<p>Volume:</p>
+		<div class="volume">
+			<span>-</span>
+			<input type="range" id="volumeSlider" min="0"max="1" step="0.01">
+			<span>+</span>
+		</div>
+	</div>
+	<h2>My Songs:</h2>
+	<div id="songsList">
+
+	</div>
+ </div>
+
+<script src="index.js"></script>
+</body>
+</html>
