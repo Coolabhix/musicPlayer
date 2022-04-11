@@ -1,5 +1,5 @@
 html {
-	font-size: 22px;
+	font-size: 24px;
 	font-family: 'Space Mono', monospace;
 	zoom: 100%;
 }
@@ -81,7 +81,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 
 .main-img {
 	border-radius: 20px;
-	width: 550px;
+	width: 500px;
 }
 
 @keyframes pulse {
@@ -97,7 +97,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	body {
 		max-height: 60vw;
 		font-size: 22px;
