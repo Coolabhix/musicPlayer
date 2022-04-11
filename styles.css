@@ -97,7 +97,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 	body {
 		max-height: 60vw;
 		font-size: 22px;
@@ -106,7 +106,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 	}
     
     .main-img {
-    	width: 420px;
+    	width: 320px;
     	margin-bottom: 15px;
     	border-radius: 10px;
     }
